@@ -12,9 +12,7 @@ mvn archetype:generate \\
 # Dependencias
 ## JUNIT 5
 ### Nota: Comprueba tu versión de Java 
-```
-<myxml>
-
+```xml
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
@@ -44,6 +42,4 @@ mvn archetype:generate \\
     </plugin>
   </plugins>
 </build>
-
-</myxml>
 ```
