@@ -2,5 +2,5 @@
 mvn archetype:generate \\
     -DarchetypeArtifactId=maven-archetype-quickstart \\
     -DinteractiveMode=false \\
-    -DgroupId=org.eadp \\
-    -DartifactId=my-app
+    -DgroupId=com.endes \\
+    -DartifactId=proyecto_escritorio
