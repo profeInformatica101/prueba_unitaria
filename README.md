@@ -1,1 +1,6 @@
-mvn archetype:generate \ -DgroupId=com.ejemplo \ -DartifactId=proyecto-escritorio \ -DarchetypeArtifactId=maven-archetype-quickstart \ -DinteractiveMode=false
+# Comando Maven para crear un proyecto base de escritorio
+mvn archetype:generate \\
+    -DarchetypeArtifactId=maven-archetype-quickstart \\
+    -DinteractiveMode=false \\
+    -DgroupId=org.eadp \\
+    -DartifactId=my-app
